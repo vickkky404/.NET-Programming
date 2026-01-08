@@ -1,20 +1,29 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.ComponentModel.DataAnnotations;
+
 Console.WriteLine("Hello, World!");
 
-//Mathmatical Function in C#
+//Arrays concept in c#
 
-int absoluteValue = Math.Abs(-10);
-double squareRoot = Math.Sqrt(16);
-double powerValue = Math.Pow(2, 3);
-int maximumValue = Math.Max(4, 9);
-double roundedValue = Math.Round(4.7);
+//initializatrion and declaration of array
+int[] marks = {85, 90, 78, 92, 88 };
 
-//displaying result
-Console.WriteLine("Absolute Value: " + absoluteValue);
-Console.WriteLine("Square Root: " + squareRoot);
-Console.WriteLine("Power: " + powerValue);
-Console.WriteLine("Maximum: " + maximumValue);
-Console.WriteLine("Rounded Value: " + roundedValue);
+//initializarion using NEW keyword
+int[] marks2 = new int[5] { 75, 80, 85, 90, 95 };
+
+//Accessing Array Elements
+
+int[] markss = { 85, 90, 78, 92, 88 };
+Console.WriteLine(markss[0]);
+Console.WriteLine(markss[3]);
+
+//Modifying Array Elements
+int[] marksss = { 85, 90, 78, 92, 88 };
+marksss[2] = 80;
+
+//Length of an ARRAY
+int[] markssss = { 85, 90, 78, 92, 88 };
+Console.WriteLine("Length of the array: " + markssss.Length);
 
 
-Console.ReadLine();
+
