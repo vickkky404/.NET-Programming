@@ -1,4 +1,5 @@
-﻿using System;
+// Arithmetic operatior
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,3 +9,4 @@ namespace CharacterSet
     {
     }
 }
+
