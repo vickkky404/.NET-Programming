@@ -1,3 +1,4 @@
+// Method in C#
 using System;
 
 class Program
